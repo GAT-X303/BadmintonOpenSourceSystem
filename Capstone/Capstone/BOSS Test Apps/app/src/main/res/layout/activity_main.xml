@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/text_DutyCycle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Duty Cycle" />
+
+        <Button
+            android:id="@+id/button_increaseDutyCycle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Increase Duty Cycle" />
+
+        <Button
+            android:id="@+id/button_decreaseDutyCycle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Decrease Duty Cycle" />
+
+        <TextView
+            android:id="@+id/text_Stepper"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:paddingTop="64dp"
+            android:text="Stepper" />
+
+        <Button
+            android:id="@+id/button_shoot"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Shoot" />
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/button_piston1"
+            android:text="Piston 1"/>
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/button_piston2"
+            android:text="Piston 2"/>
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/button_piston3"
+            android:text="Piston 3"/>
+
+        <Button
+            android:id="@+id/button_neutral"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Right" />
+
+        <Button
+            android:id="@+id/button_clockwise"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Center" />
+
+        <Button
+            android:id="@+id/button_counterClockwise"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Left" />
+
+
+    </LinearLayout>
+
+</android.support.constraint.ConstraintLayout>
