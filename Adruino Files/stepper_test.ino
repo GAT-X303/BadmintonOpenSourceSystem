@@ -1,5 +1,9 @@
-//https://cyaninfinite.com/moving-the-28byj-48-stepper-motor/s
-
+/*
+* BOSS
+* S01 - Allan Hieng
+* An improved stepper motor test program. This one was to test the movements and values needed to move it around
+* https://cyaninfinite.com/moving-the-28byj-48-stepper-motor/s
+*/
 #include <AccelStepper.h>
 #include <MultiStepper.h>
 

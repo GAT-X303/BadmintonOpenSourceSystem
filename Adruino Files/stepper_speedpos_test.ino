@@ -1,3 +1,8 @@
+/*
+* BOSS
+* S01 - Allan Hieng
+* This program was used to test the speed of the stepper motors and revolution of the steppter motors.
+*/
 #include <AccelStepper.h>
 #include <MultiStepper.h>
 

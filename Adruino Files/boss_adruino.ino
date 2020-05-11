@@ -1,3 +1,10 @@
+/*
+* BOSS
+* S01 - Allan Hieng
+* This is the program used in the presentation for BOSS @ ECE EXPO 2018/2019
+*/
+
+//MORE INFO ON THE STEPPERS USED
 //https://cyaninfinite.com/moving-the-28byj-48-stepper-motor/s
 
 #include <AccelStepper.h>

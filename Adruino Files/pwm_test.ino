@@ -1,3 +1,9 @@
+/*
+* BOSS
+* S01 - Allan Hieng
+* Pulse Width Modulation on the Adruino test. Measured using an oscilloscope so that it would be the values we needed 
+*/
+
 int outPin = 3;
 
 void setup() {
